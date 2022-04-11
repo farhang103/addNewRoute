@@ -1,2 +1,2 @@
-# BoilerPlate-Vite-React-TailwindCSS
-## My custom BoilerPlate for Vite + Reactjs + TailwindCSS
+# Add New Routes dynamicly
+## This way you can add new routes without trying to hard code the route!
