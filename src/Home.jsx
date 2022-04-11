@@ -10,7 +10,6 @@ const Home = () => {
     await e.preventDefault();
     setUrl((arr) => [...arr, route]);
     const str = url.toString().split(",");
-    console.log("urlOne: " + str);
     setRoute("");
   };
 
@@ -48,7 +47,6 @@ const Home = () => {
               </div>
             );
           })}
-          {console.log("urlTwo: " + url)}
         </div>
       </div>
     </div>
