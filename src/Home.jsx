@@ -6,8 +6,8 @@ const Home = () => {
   const [route, setRoute] = useState("");
   const { url, setUrl } = useContext(RouteContext);
 
-  const handleSubmit = async (e) => {
-    await e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
     setUrl((arr) => [...arr, route]);
     const str = url.toString().split(",");
     setRoute("");
